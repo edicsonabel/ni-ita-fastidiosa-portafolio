@@ -1,209 +1,205 @@
-.logo ul li {
-  display: inline-block;
-  padding: 0px 20px;
-}
-
-.inicio-1 {
+.section-principal {
+  padding-top: var(--header-height);
   display: flex;
   justify-content: space-around;
 }
-/* 
-.inicio-1 h1 {
-  font-size: 68px;
+
+.section-principal .col-1 .inicio-saludo {
+  font-size: 4.5rem;
+  font-weight: bold;
+  line-height: 1.1;
   color: rgb(var(--color-yellow) / 1);
 }
 
-.inicio-1 img {
-  font-size: 22px;
-  font-weight: 600;
-  color: rgb(var(--color-rosado) / 1);
+.section-principal .col-1 .inicio-nombre {
+  font-family: 'OliveVillage';
+  color: rgb(var(--color-pink) / 1);
 }
 
-.inicio-1 .imagen-milena {
-  width: 92dvw;
+.section-principal .col-1 .descripcion {
+  font-weight: bold;
+  color: rgb(var(--color-blue) / 1);
+}
+
+.section-principal .col-1 .descripcion-2 {
+  font-weight: bold;
+  padding-top: 2rem;
+}
+
+.section-principal .col-1 .locacion {
+  padding-top: 2rem;
+}
+
+.section-principal .col-1 .locacion a {
   display: flex;
-  justify-content: right;
   align-items: center;
 }
 
-.inicio-1 .descripcion {
-  font-size: 18px;
-  color: rgb(var(--color-blue) / 1);
+.section-principal .col-1 .locacion img {
+  display: inline-block;
+  width: 1rem;
+  margin-right: 0.5rem;
 }
 
-.inicio-1 .descripcion-2 {
-  font-size: 18px;
-  color: rgb(var(--color-black) / 1);
-  margin-top: 3rem;
+.section-principal .col-2 {
+  text-align: center;
+}
+
+.section-principal .col-2 img {
+  width: 70%;
+  display: inline-block;
+}
+
+.section-principal .col-2 .box-contactos {
   display: flex;
-  justify-content: left;
+  justify-content: center;
+  position: relative;
+  top: -1.5rem;
+}
+
+.section-sobre-mi {
+  display: flex;
+  position: relative;
+  top: calc(var(--header-height) * -1);
+  padding-top: var(--header-height);
+}
+
+.section-sobre-mi .imagen-educacion img {
+  width: 40dvw;
+}
+
+.section-sobre-mi .descripcion-sobremi {
+  margin-top: var(--header-height);
+  padding-left: 10rem;
+  padding-right: 10rem;
   text-align: justify;
 }
 
-.inicio-1 .locacion img {
-  margin-top: 4rem;
-  transform: scale(1.05);
+.section-sobre-mi h2 {
+  font-family: 'OliveVillage';
+  font-size: 3rem;
+  text-align: center;
+  line-height: 1.1;
 }
 
-.inicio-1 .locacion p {
-  font-size: 18px;
-  margin-left: 2rem;
-  margin-top: -2rem;
+.section-sobre-mi .descripcion-universidad {
+  border: 1px solid rgb(var(--color-blue) / 1);
+  border-radius: 0.75rem;
+  padding: 0.2rem 0.5rem;
+  margin-bottom: 3rem;
 }
 
-.inicio-1 .box-contactos {
+.section-sobre-mi .descripcion-universidad span {
+  font-weight: bold;
+}
+
+.section-sobre-mi .descripcion-subtitulo {
+  font-weight: bold;
+  color: rgb(var(--color-blue) / 1);
+  margin-top: 2rem;
+}
+
+.section-software {
   display: flex;
-  flex-direction: row;
-  justify-content: right;
-  padding: 0.2rem 20rem;
-  margin-top: -4rem;
+  position: relative;
+  top: -10rem;
+}
+
+.section-software .col-1 {
+  width: 50dvw;
+}
+
+.section-software .col-1 h2 {
+  font-family: 'OliveVillage';
+  font-size: 3rem;
+  text-align: center;
+}
+
+.section-software .software-box {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding-left: 5rem;
+  margin-top: 2rem;
   gap: 2rem;
 }
 
-.inicio-1 .box-contactos :hover {
-  transform: scale(1.05);
-}
-
-.sobremi-2 .imagen-educacion {
-  margin-top: 40rem;
-  width: 50dvw;
+.section-software .software-item {
+  width: 50%;
   display: flex;
-  justify-content: left;
+  line-height: 1.1;
+  align-items: center;
+  font-weight: bold;
+  font-size: 1.4rem;
 }
 
-.descripcion-sobremi {
-  padding: 6rem 50rem;
-  width: 200rem;
-  margin-top: -45rem;
+.section-software .software-item img {
+  width: 35%;
+  margin-right: 0.75rem;
 }
 
-.sobremi-2-software .columna-1 img {
-  margin-top: 5rem;
-  margin-left: 16rem;
-  padding: 2rem 5rem;
-}
-
-.sobremi-2-software .software-1 {
-  display: flex;
-  flex-direction: row;
-  padding: 1rem 5rem;
-}
-
-.sobremi-2-software .software-1 img {
-  margin-top: auto;
-  margin-right: 1rem;
-  padding: 1rem 1rem;
-}
-
-.sobremi-2-software .software-1 h3 {
-  font-size: 30px;
-}
-
-.sobremi-2-software .software-1 span {
-  font-size: 34px;
+.section-software .software-1 span,
+.section-software .software-4 span {
   color: rgb(var(--color-blue) / 1);
 }
 
-.sobremi-2-software .software-2 {
-  display: flex;
-  flex-direction: row;
-  justify-content: right;
-  padding: 1rem 10rem;
-  margin: auto;
-  margin-top: -9rem;
-}
-
-.sobremi-2-software .software-2 img {
-  margin: auto;
-  margin-right: 1rem;
-}
-
-.sobremi-2-software .software-2 h3 {
-  font-size: 30px;
-}
-
-.sobremi-2-software .software-2 span {
-  font-size: 34px;
+.section-software .software-2 span,
+.section-software .software-3 span {
   color: rgb(var(--color-yellow) / 1);
 }
 
-.sobremi-2-software .software-3 {
+.section-portafolio {
+  position: relative;
+  top: calc(var(--header-height) * -1);
+  padding-top: var(--header-height);
+}
+
+.section-portafolio h2 {
+  font-family: 'OliveVillage';
+  font-size: 4.5rem;
+  text-align: center;
+}
+
+.section-portafolio .trabajos-box-images,
+.section-portafolio .trabajos-box-text {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  position: relative;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  text-align: center;
+}
+
+.section-portafolio .trabajos-box-images .trabajo-container {
   display: flex;
-  flex-direction: row;
-  padding: 2rem 6rem;
-  margin-top: 1rem;
-}
-
-.sobremi-2-software .software-3 img {
-  margin-top: auto;
-  margin-right: 1rem;
-}
-
-.sobremi-2-software .software-3 h3 {
-  font-size: 30px;
-}
-
-.sobremi-2-software .software-3 span {
-  font-size: 34px;
-  color: rgb(var(--color-yellow) / 1);
-}
-
-.sobremi-2-software .software-4 {
-  display: flex;
-  flex-direction: row;
-  justify-content: right;
-  padding: 2rem 14rem;
-  margin: auto;
-  margin-top: -9rem;
-}
-
-.sobremi-2-software .software-4 img {
-  margin-top: auto;
-  margin-right: 1rem;
-}
-
-.sobremi-2-software .software-4 h3 {
-  font-size: 30px;
-  color: rgb(var(--color-blue) / 1);
-}
-
-.portafolio {
-  margin-top: 7rem;
-}
-
-.portafolio img {
-  display: flex;
-  flex-direction: row-reverse;
+  align-items: center;
   justify-content: center;
-  margin-left: auto;
-  margin-right: -3rem;
 }
 
-.portafolio .container-flex {
-  display: flex;
-  flex-direction: row;
+.section-portafolio .trabajos-box-images img {
+  max-width: 25dvw;
 }
 
-.portafolio .container-flex img {
-  margin: auto;
-  margin-top: 1rem;
-  margin-left: 5rem;
+.section-portafolio .trabajos-box-text {
+  font-size: 1.8rem;
+  line-height: 0.9;
+  font-weight: bold;
+  position: relative;
+  top: -2rem;
 }
 
-.portafolio .container-flex .texto-grafico img {
-  margin: auto;
-  margin-top: 22rem;
-  margin-left: -28rem;
+.section-portafolio .trabajos-box-text span {
+  font-family: 'OliveVillage';
+  font-size: 4rem;
 }
 
-.portafolio .container-flex .imagamen-empaque img {
-  margin: auto;
-  margin-top: 2rem;
-  margin-right: 20rem;
+.section-portafolio .trabajos-box-text .trabajo-span-1 {
+  color: rgb(var(--color-pink) / 1);
 }
 
-.portafolio .container-flex .imagamen-editorial img {
-  margin: auto;
-  margin-top: 2rem;
-  margin-right: 50rem;
-} */
+.section-portafolio .trabajos-box-text .trabajo-span-2 {
+  color: rgb(var(--color-blue) / 1);
+}
+
+.section-portafolio .trabajos-box-text .trabajo-span-3 {
+  color: rgb(var(--color-yellow) / 1);
+}

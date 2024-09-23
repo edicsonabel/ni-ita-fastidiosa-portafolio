@@ -83,7 +83,7 @@
 } */
 
 @font-face {
-  font-family: 'OliveVillage-';
+  font-family: 'OliveVillage';
   src: url(../fonts/OliveVillage-Regular.otf);
   font-weight: 600;
 }
@@ -120,13 +120,17 @@
 
 /* Variables */
 body {
+  /* Colores */
   --color-white: 255 255 255; /* #ffffff */
-  --color-rosado: 233 98 138; /* #e9628a*/
+  --color-pink: 233 98 138; /* #e9628a*/
   --color-blue-navy: 40 72 136; /* #284888 */
   --color-blue: 139 198 237; /* #8bc6ed*/
   --color-yellow: 248 189 16; /* #f8bd10*/
   --color-black: 0 0 0; /* #000000 */
-  --color-verde: 175 218 221; /* #afdadd*/
+  --color-green: 175 218 221; /* #afdadd*/
+
+  /* Otros */
+  --header-height: 6rem;
 }
 
 /* Evitar el scroll horizontal */
@@ -149,7 +153,6 @@ a {
 
 .header-global {
   display: flex;
-  display: none;
   align-items: center;
   justify-content: space-between;
   padding: 1.5rem 5rem;
@@ -173,7 +176,7 @@ a {
 
 .header-global li a {
   padding: 0.2rem 1rem;
-  border: 2px solid rgb(var(--color-blue) / 1);
+  border: 1px solid rgb(var(--color-blue) / 1);
   border-radius: 9999px;
 }
 
