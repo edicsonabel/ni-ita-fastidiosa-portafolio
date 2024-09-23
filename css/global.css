@@ -1,0 +1,184 @@
+/* Fuentes */
+@font-face {
+  font-family: 'Poppins';
+  src: url(../fonts/Poppins-Regular.ttf);
+  font-weight: normal;
+}
+
+/* .font-poppins {
+  font-family: 'Poppins';
+  font-weight: normal;
+} */
+
+@font-face {
+  font-family: 'Poppins';
+  src: url(../fonts/Poppins-Italic.ttf);
+  font-weight: normal;
+  font-style: italic;
+}
+
+/* .font-poppins-italic {
+  font-family: 'Poppins';
+  font-weight: normal;
+  font-style: italic;
+} */
+
+@font-face {
+  font-family: 'Poppins';
+  src: url(../fonts/Poppins-Light.ttf);
+  font-weight: 300;
+}
+
+/* .font-poppins-light {
+  font-family: 'Poppins';
+  font-weight: 300;
+} */
+
+@font-face {
+  font-family: 'Poppins';
+  src: url(../fonts/Poppins-SemiBold.ttf);
+  font-weight: 600;
+}
+
+/* .font-poppins-semi-bold {
+  font-family: 'Poppins';
+  font-weight: 600;
+} */
+
+@font-face {
+  font-family: 'Poppins';
+  src: url(../fonts/Poppins-SemiBoldItalic.ttf);
+  font-weight: 600;
+  font-style: italic;
+}
+
+/* .font-poppins-semi-italic {
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-style: italic;
+} */
+
+@font-face {
+  font-family: 'Poppins';
+  src: url(../fonts/Poppins-Bold.ttf);
+  font-weight: bold;
+}
+
+/* .font-poppins-bold {
+  font-family: 'Poppins';
+  font-weight: bold;
+} */
+
+@font-face {
+  font-family: 'Poppins';
+  src: url(../fonts/Poppins-BoldItalic.ttf);
+  font-weight: bold;
+  font-style: italic;
+}
+
+/* .font-poppins-bold-italic {
+  font-family: 'Poppins';
+  font-weight: bold;
+  font-style: italic;
+} */
+
+@font-face {
+  font-family: 'OliveVillage-';
+  src: url(../fonts/OliveVillage-Regular.otf);
+  font-weight: 600;
+}
+
+/* .font-olivevillage {
+  font-family: 'OliveVillage';
+  font-weight: 600;
+} */
+
+@font-face {
+  font-family: 'OliveVillage';
+  src: url(../fonts/OliveVillage-Italic.otf);
+  font-weight: 600;
+  font-style: italic;
+}
+
+/* .font-olivevillage-italic {
+  font-family: 'OliveVillage';
+  font-weight: 600;
+  font-style: italic;
+} */
+
+/* Quitan los margins y padding de todos los elementos*/
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+* {
+  transition: all 0.2s ease;
+}
+
+/* Variables */
+body {
+  --color-white: 255 255 255; /* #ffffff */
+  --color-rosado: 233 98 138; /* #e9628a*/
+  --color-blue-navy: 40 72 136; /* #284888 */
+  --color-blue: 139 198 237; /* #8bc6ed*/
+  --color-yellow: 248 189 16; /* #f8bd10*/
+  --color-black: 0 0 0; /* #000000 */
+  --color-verde: 175 218 221; /* #afdadd*/
+}
+
+/* Evitar el scroll horizontal */
+body {
+  overflow-x: hidden;
+  font-family: 'Poppins', sans-serif;
+  position: relative;
+  min-height: 100dvh;
+  color: rgb(var(--color-black) / 1);
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.header-global {
+  display: flex;
+  display: none;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem 5rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: rgb(var(--color-white) / 1);
+  z-index: 99;
+}
+
+.header-global img {
+  width: 7dvw;
+}
+
+.header-global ul {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.header-global li a {
+  padding: 0.2rem 1rem;
+  border: 2px solid rgb(var(--color-blue) / 1);
+  border-radius: 9999px;
+}
+
+.header-global li a:hover {
+  color: rgb(var(--color-white) / 1);
+  background-color: rgb(var(--color-yellow) / 1);
+  border-color: rgb(var(--color-yellow) / 1);
+}

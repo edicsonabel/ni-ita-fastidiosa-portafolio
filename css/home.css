@@ -1,0 +1,209 @@
+.logo ul li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.inicio-1 {
+  display: flex;
+  justify-content: space-around;
+}
+/* 
+.inicio-1 h1 {
+  font-size: 68px;
+  color: rgb(var(--color-yellow) / 1);
+}
+
+.inicio-1 img {
+  font-size: 22px;
+  font-weight: 600;
+  color: rgb(var(--color-rosado) / 1);
+}
+
+.inicio-1 .imagen-milena {
+  width: 92dvw;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+.inicio-1 .descripcion {
+  font-size: 18px;
+  color: rgb(var(--color-blue) / 1);
+}
+
+.inicio-1 .descripcion-2 {
+  font-size: 18px;
+  color: rgb(var(--color-black) / 1);
+  margin-top: 3rem;
+  display: flex;
+  justify-content: left;
+  text-align: justify;
+}
+
+.inicio-1 .locacion img {
+  margin-top: 4rem;
+  transform: scale(1.05);
+}
+
+.inicio-1 .locacion p {
+  font-size: 18px;
+  margin-left: 2rem;
+  margin-top: -2rem;
+}
+
+.inicio-1 .box-contactos {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  padding: 0.2rem 20rem;
+  margin-top: -4rem;
+  gap: 2rem;
+}
+
+.inicio-1 .box-contactos :hover {
+  transform: scale(1.05);
+}
+
+.sobremi-2 .imagen-educacion {
+  margin-top: 40rem;
+  width: 50dvw;
+  display: flex;
+  justify-content: left;
+}
+
+.descripcion-sobremi {
+  padding: 6rem 50rem;
+  width: 200rem;
+  margin-top: -45rem;
+}
+
+.sobremi-2-software .columna-1 img {
+  margin-top: 5rem;
+  margin-left: 16rem;
+  padding: 2rem 5rem;
+}
+
+.sobremi-2-software .software-1 {
+  display: flex;
+  flex-direction: row;
+  padding: 1rem 5rem;
+}
+
+.sobremi-2-software .software-1 img {
+  margin-top: auto;
+  margin-right: 1rem;
+  padding: 1rem 1rem;
+}
+
+.sobremi-2-software .software-1 h3 {
+  font-size: 30px;
+}
+
+.sobremi-2-software .software-1 span {
+  font-size: 34px;
+  color: rgb(var(--color-blue) / 1);
+}
+
+.sobremi-2-software .software-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  padding: 1rem 10rem;
+  margin: auto;
+  margin-top: -9rem;
+}
+
+.sobremi-2-software .software-2 img {
+  margin: auto;
+  margin-right: 1rem;
+}
+
+.sobremi-2-software .software-2 h3 {
+  font-size: 30px;
+}
+
+.sobremi-2-software .software-2 span {
+  font-size: 34px;
+  color: rgb(var(--color-yellow) / 1);
+}
+
+.sobremi-2-software .software-3 {
+  display: flex;
+  flex-direction: row;
+  padding: 2rem 6rem;
+  margin-top: 1rem;
+}
+
+.sobremi-2-software .software-3 img {
+  margin-top: auto;
+  margin-right: 1rem;
+}
+
+.sobremi-2-software .software-3 h3 {
+  font-size: 30px;
+}
+
+.sobremi-2-software .software-3 span {
+  font-size: 34px;
+  color: rgb(var(--color-yellow) / 1);
+}
+
+.sobremi-2-software .software-4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  padding: 2rem 14rem;
+  margin: auto;
+  margin-top: -9rem;
+}
+
+.sobremi-2-software .software-4 img {
+  margin-top: auto;
+  margin-right: 1rem;
+}
+
+.sobremi-2-software .software-4 h3 {
+  font-size: 30px;
+  color: rgb(var(--color-blue) / 1);
+}
+
+.portafolio {
+  margin-top: 7rem;
+}
+
+.portafolio img {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: -3rem;
+}
+
+.portafolio .container-flex {
+  display: flex;
+  flex-direction: row;
+}
+
+.portafolio .container-flex img {
+  margin: auto;
+  margin-top: 1rem;
+  margin-left: 5rem;
+}
+
+.portafolio .container-flex .texto-grafico img {
+  margin: auto;
+  margin-top: 22rem;
+  margin-left: -28rem;
+}
+
+.portafolio .container-flex .imagamen-empaque img {
+  margin: auto;
+  margin-top: 2rem;
+  margin-right: 20rem;
+}
+
+.portafolio .container-flex .imagamen-editorial img {
+  margin: auto;
+  margin-top: 2rem;
+  margin-right: 50rem;
+} */
