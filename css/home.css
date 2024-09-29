@@ -55,6 +55,7 @@
   justify-content: center;
   position: relative;
   top: -1.5rem;
+  z-index: 10;
 }
 
 .section-sobre-mi {
@@ -202,4 +203,100 @@
 
 .section-portafolio .trabajos-box-text .trabajo-span-3 {
   color: rgb(var(--color-yellow) / 1);
+}
+
+.section-formulario {
+  position: relative;
+  top: calc(var(--header-height) * -1);
+  padding-top: var(--header-height);
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
+.section-formulario .title {
+  display: inline-block;
+  width: 50%;
+}
+
+.section-formulario .title h2 {
+  font-family: 'OliveVillage';
+  font-size: 8dvw;
+  line-height: 1;
+  color: rgb(var(--color-yellow) / 1);
+}
+
+.section-formulario .title p {
+  position: relative;
+  display: block;
+  text-align: right;
+  top: -1rem;
+  right: 3dvw;
+  font-weight: bold;
+}
+
+.section-formulario .box-form {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section-formulario .box-form .col-1 {
+  width: 50%;
+  padding-right: 8rem;
+}
+
+.section-formulario .input-container {
+  margin-bottom: 1.5rem;
+  width: 100%;
+}
+
+.section-formulario .input-container label {
+  display: inline-block;
+  margin-bottom: 0.5rem;
+}
+
+.section-formulario .input-container input {
+  height: 3.2rem;
+  width: 100%;
+  /* display: inline-block; */
+  background: rgb(var(--color-blue) / 0.7);
+  border-radius: 0.5rem;
+  border: none;
+  padding: 0.5rem 0.8rem;
+  font-size: 18px;
+}
+
+.section-formulario .buttons-box {
+  display: flex;
+  justify-content: end;
+  gap: 1rem;
+}
+
+.section-formulario .buttons-box button {
+  width: 150px;
+}
+
+.section-formulario .button-enviar {
+  background: rgb(var(--color-pink) / 1);
+  border-radius: 0.5rem;
+  border: none;
+  font-size: 18px;
+  padding: 0.5rem 0.7rem;
+  color: rgb(var(--color-white) / 1);
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.section-formulario .button-enviar:hover {
+  transform: scale(1.05);
+}
+
+.footer-global .image-over img {
+  --aspect-ratio: calc(494 / 790); /* Relación de aspecto de la imagen */
+  --width-image: 30dvw;
+  display: inline-block;
+  width: var(--width-image);
+  position: absolute;
+  top: calc(var(--width-image) / var(--aspect-ratio) * -1);
+  right: 5rem;
+  z-index: -10;
 }
