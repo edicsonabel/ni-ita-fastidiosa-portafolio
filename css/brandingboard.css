@@ -1,0 +1,42 @@
+.section-branding-board .titulo {
+    display: flex;
+    flex-direction: center;
+    justify-content: center;
+    font-size: 50px;
+    line-height: 0.8;
+    font-weight: bold;
+    position: relative;
+    top: 2rem;
+    margin-top: 7rem;
+    text-align: center;
+  }
+
+.section-branding-board .titulo h1 span {
+    font-family: 'OliveVillage';
+    font-size: 160px;
+    margin-top: 20rem;
+    padding: 4rem;
+  }
+  
+  .section-branding-board .titulo h1 .board-span-1 {
+    color: rgb(var(--color-pink) / 1);
+  }
+
+  .section-branding-board .text-description {
+    display: flex;
+    justify-content: center;
+    padding: 5rem 22rem;
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: normal;
+    position: relative;
+    /* margin-top: 10rem; */
+    text-align: justify;
+    font-weight: 300;
+  }
+
+  .section-branding-board .imagen{
+    display: flex;
+    justify-content: center;
+    max-width: top;
+  }

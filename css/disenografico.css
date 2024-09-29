@@ -1,0 +1,58 @@
+.section-diseno-grafico .titulo {
+    font-size: 60px;
+    line-height: 0.9;
+    font-weight: bold;
+    position: relative;
+    top: -2rem;
+    margin-top: 10rem;
+    text-align: center;
+  }
+
+.section-diseno-gr1fico .titulo h1 span {
+    font-family: 'OliveVillage';
+    font-size: 135px;
+    margin-top: 20rem;
+    padding: 4rem;
+  }
+  
+  .section-diseno-grafico .titulo h1 .diseno-span-1 {
+    color: rgb(var(--color-pink) / 1);
+  }
+
+  .section-diseno-grafico .container-imagenes{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: -2rem;
+  }
+
+  .section-diseno-grafico .container-imagenes .imagen2{
+    margin-left: 40px;
+  }
+
+  .section-diseno-grafico .texto-box-trabajo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: bold;
+    position: relative;
+    top: -10rem;
+  }
+  
+  .section-diseno-grafico .texto-box-trabajo .text1 {
+    background: rgb( 139 198 237);
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 5rem;
+  }
+
+  .section-diseno-grafico .texto-box-trabajo .text2 {
+    background: rgb( 139 198 237);
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 5rem;
+  }
+  
