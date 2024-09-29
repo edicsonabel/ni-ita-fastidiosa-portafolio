@@ -22,12 +22,32 @@
 }
 
 .section-principal .col-1 .descripcion-2 {
-  font-weight: bold;
+  font-weight: normal;
   padding-top: 2rem;
+}
+
+.section-principal .col-1 .descripcion-2 span {
+  display: block;
+  opacity: 8;
+  animation: reveal 2s forwards;
+}
+
+@keyframes reveal {
+  from {
+    transform: translateX(20px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
 }
 
 .section-principal .col-1 .locacion {
   padding-top: 2rem;
+}
+
+.section-principal .col-1 .locacion:hover {
+  transform: scale(1.05);
 }
 
 .section-principal .col-1 .locacion a {
@@ -133,6 +153,10 @@
   font-size: 1.4rem;
 }
 
+.section-software .software-item:hover {
+  transform: scale(1.2);
+}
+
 .section-software .software-item img {
   width: 35%;
   margin-right: 0.75rem;
@@ -235,13 +259,17 @@
 }
 
 .section-formulario .box-form {
-  display: flex;
-  justify-content: space-between;
+  position: relative;
+  width: 50%;
 }
 
 .section-formulario .box-form .col-1 {
-  width: 50%;
-  padding-right: 8rem;
+  position: relative;
+  left: 0;
+  padding-right: 7rem;
+  padding-left: 7rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .section-formulario .input-container {
@@ -254,7 +282,8 @@
   margin-bottom: 0.5rem;
 }
 
-.section-formulario .input-container input {
+.section-formulario .input-container input,
+.section-formulario .input-container textarea {
   height: 3.2rem;
   width: 100%;
   /* display: inline-block; */
@@ -263,6 +292,10 @@
   border: none;
   padding: 0.5rem 0.8rem;
   font-size: 18px;
+  resize: none;
+}
+.section-formulario .input-container textarea {
+  height: initial;
 }
 
 .section-formulario .buttons-box {
@@ -297,6 +330,6 @@
   width: var(--width-image);
   position: absolute;
   top: calc(var(--width-image) / var(--aspect-ratio) * -1);
-  right: 5rem;
+  right: 10rem;
   z-index: -10;
 }
